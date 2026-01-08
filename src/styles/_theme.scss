@@ -1,0 +1,38 @@
+/* Colors */
+$bg-dark: #181818;
+$bg-red: #dc3b5a;
+$bg-grey: #1e1e1e;
+$bg-semi-tr-dark: rgba(30, 30, 30, 0.1);
+$bg-semi-tr-light: rgba(255, 255, 255, 0.1);
+
+$general-dark: #1e1e1e;
+$general-white: #fff;
+$general-red: #dc3b5a;
+$general-blue: #5a65f2;
+$general-grey: rgba(255, 255, 255, 0.24);
+
+/* Fonts */
+$font-first: 'Right Grotesk Compact';
+$font-second: 'Messina Sans Mono Regular';
+$font-third: 'Biro Script Plus Bold US';
+$font-fourth: 'Messina Sans Mono SemiBold';
+$font-sixth: 'Formular Regular';
+$font-seventh: 'Biro Script Plus Bold';
+$font-eighth: 'Formular Bold';
+
+/* Border radius */
+$radius-none: 0;
+$radius-xs: 8px;
+$radius-sm: 12px;
+$radius-md: 16px;
+$radius-lg: 24px;
+
+/* Transition */
+$transition-hover: 250ms ease-in-out;
+
+/* Breakpoints */
+$mob-start: 360px;
+$mob-end: 480px;
+$tab: 768px;
+$desk-start: 1280px;
+$desk-end: 1440px;

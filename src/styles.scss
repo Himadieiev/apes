@@ -1,1 +1,117 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fonts */
+@font-face {
+  font-family: 'Messina Sans Mono SemiBold';
+  src: url('./assets/fonts/MessinaSansMono-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Messina Sans Mono Regular';
+  src: url('./assets/fonts/MessinaSansMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Biro Script Plus Bold US';
+  src: url('./assets/fonts/BiroScriptUSPlus-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Biro Script Plus Bold';
+  src: url('./assets/fonts/BiroScriptPlus-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular Regular';
+  src: url('./assets/fonts/Formular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular Bold';
+  src: url('./assets/fonts/Formular-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Right Grotesk Compact';
+  src: url('./assets/fonts/RightGrotesk-CompactBlack.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+/* Global styles*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Right Grotesk Compact', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  background-color: #181818;
+  color: #fff;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.body-no-scroll {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+input:focus,
+a:focus,
+button:focus {
+  outline: 1px solid #fff;
+}
