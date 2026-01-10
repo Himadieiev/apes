@@ -1,0 +1,16 @@
+export const ART_DATA = [
+  { imgSrc: 'assets/images/arts1.jpg' },
+  { imgSrc: 'assets/images/arts2.jpg' },
+  { imgSrc: 'assets/images/arts3.jpg' },
+  { imgSrc: 'assets/images/arts4.jpg' },
+  { imgSrc: 'assets/images/arts5.jpg' },
+  { imgSrc: 'assets/images/arts6.jpg' },
+  { imgSrc: 'assets/images/arts7.jpg' },
+  { imgSrc: 'assets/images/arts8.jpg' },
+  { imgSrc: 'assets/images/arts9.jpg' },
+  { imgSrc: 'assets/images/arts10.jpg' },
+  { imgSrc: 'assets/images/arts11.jpg' },
+  { imgSrc: 'assets/images/arts12.jpg' },
+  { imgSrc: 'assets/images/arts13.jpg' },
+  { imgSrc: 'assets/images/arts14.jpg' },
+];
